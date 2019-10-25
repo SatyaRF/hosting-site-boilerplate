@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+section > a{
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    
+}
+
+section{
+    width: 80%;
+    margin: 16px 0;
+    border: 5px solid black;
+    border-left: none;
+}
+
+section:active,
+section:hover{
+    box-shadow: 2px 2px 4px grey;
+    border-color: red;
+}
+
+a h1{
+    font-weight: bold;
+    color: black;
+}
+
+a h2{
+    font-weight: bold;
+    color: grey;
+}
+
+a p{
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    background: white;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.main-section-1{
+    background: rgb(161, 243, 161);
+}
+
+.main-section-2{
+    background: rgb(185, 236, 185);
+    float: right;
+    border-right: none;
+    border-left: 5px solid black;
+}
+
+.main-section-3{
+    background: rgb(3, 114, 3);
+}
